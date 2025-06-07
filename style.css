@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Começo do fundo das particulas*/
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #1b1b1b, #121212);
+  pointer-events: none;
+}
+/*Fim do fundo com particulas*/
+
+/* Começo da Nav_bar */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  background-color: transparent;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.nav-bar.scrolled {
+  background-color: rgba(27, 27, 27, 0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00ccff;
+}
+
+/* Fim da  Nav_bar */
+
+/* Começo da Main */
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  gap: 15px;
+  padding: 0 20px;
+  pointer-events: auto;
+}
+
+.profilephoto {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid;
+  box-shadow: 0 0 15px;
+}
+
+main.home {
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+
+main.home * {
+  pointer-events: auto;
+}
+
+/* Fim da Main */
+
+/* Começo do Social Icons */
+.socials {
+  margin-top: 30px;
+}
+
+.socials-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.socials-icons a {
+  color: white;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
+.socials-icons a:hover {
+  color: #00ccff;
+}
+
+/* Fim do Social Icons */
