@@ -1,8 +1,10 @@
-window.addEventListener("scroll", () => {
-  const nav = document.querySelector(".nav-bar");
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".nav-bar");
   if (window.scrollY > 50) {
-    nav.classList.add("scrolled");
+    navbar.classList.add("scrolled");
   } else {
-    nav.classList.remove("scrolled");
+    navbar.classList.remove("scrolled");
   }
 });
+
+
