@@ -464,7 +464,7 @@ main.home * {
 .gif-box img {
   height: 100%;
   width: auto;
-  object-fit: cover; /* corta a imagem para preencher sem distorcer */
+  object-fit: cover;
 }
 
 .arrow-down-timeline {
@@ -545,7 +545,6 @@ main.home * {
 
 .message-box {
   color: white;
-
 }
 
 .message-box p {
@@ -570,6 +569,7 @@ main.home * {
   background-color: #2c2c2c;
   color: white;
   resize: none;
+  caret-color: auto;
 }
 
 .message-box input::placeholder,
