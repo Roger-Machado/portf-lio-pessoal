@@ -1,246 +1,251 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"
-      defer
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <title>Portfólio</title>
-  </head>
-  <body>
-    <div id="tsparticles"></div>
 
-    <header>
-      <nav class="nav-bar">
-        <h1 class="custom-nav-tittle">
-          <span class="highlight-nav">Roger</span> Machado
-        </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Portfólio</title>
+</head>
 
-        <ul class="nav-links">
-          <li><a href="home" class="home-bar" title="Início">Home</a></li>
-          <li><a href="about" class="about-bar" title="Sobre mim">Sobre</a></li>
-          <li>
-            <a href="contact" class="contact-bar" title="Contate-me">Contato</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <div id="tsparticles"></div>
 
-    <main class="home" alt="tela 1" id="home">
-      <img
-        src="Components/perfil roger.png"
-        alt="Foto de Perfil"
-        class="profilephoto"
-      />
-      <h1 class="custom-title">👋🏻 Olá,</h1>
-      <h2>Me chamo <span class="highlight">Roger Machado</span></h2>
-      <h3>Sou Estudante e Desenvolvedor!</h3>
+  <header>
+    <nav class="nav-bar">
+      <h1 class="custom-nav-tittle">
+        <span class="highlight-nav">Roger</span> Machado
+      </h1>
 
-      <div class="socials">
-        <div class="socials-icons">
-          <a
-            href="https://github.com/Roger-Machado"
-            target="_blank"
-            title="GitHub"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/roger-machado-04b094240/"
-            target="_blank"
-            title="LinkedIn"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/_rogermachado_/"
-            target="_blank"
-            title="Instagram"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a
-            href="mailto:rogerr_machadoo@hotmail.com"
-            target="_blank"
-            title="Email"
-          >
-            <i class="fas fa-envelope"></i>
-          </a>
-          <a
-            href="https://wa.me/5514996531543"
-            target="_blank"
-            title="WhatsApp"
-          >
-            <i class="fab fa-whatsapp"></i>
-          </a>
+      <ul class="nav-links">
+        <li><a href="#home" class="home-bar" title="Início">Home</a></li>
+        <li><a href="#about" class="about-bar" title="Sobre mim">Sobre</a></li>
+        <li><a href="#about-tec" class="Skills" title="Projetos e Tecnologias">Skills</a></li>
+        <li><a href="#budget" class="budget-bar" title="Faça seu Orçamento">Orçamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home" alt="tela 1" id="home">
+    <img src="Components/perfil roger.png" alt="Foto de Perfil" class="profilephoto" />
+    <h1 class="custom-title">👋🏻 Olá,</h1>
+    <h2>Me chamo <span class="highlight">Roger Machado</span></h2>
+    <h3>Sou Estudante e Desenvolvedor!</h3>
+
+    <div class="socials">
+      <div class="socials-icons">
+        <a href="https://github.com/Roger-Machado" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/roger-machado-04b094240/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/_rogermachado_/" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:rogerr_machadoo@hotmail.com" target="_blank" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/5514996531543" target="_blank" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
         <a href="#about" class="arrow-down" title="Ir para o Sobre">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="32" height="32">
-    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
-  </svg>
-</a>
-    </main>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" width="32" height="32">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+          </svg>
+        </a>
+  </main>
 
-    <section class="section" id="about">
-      <div class="card">
-        <div class="container">
-          <h1>Sobre Mim</h1>
-          <p>Olá, me chamo Roger Machado!</p>
-          <p>
-            Sou um Desenvolvedor Full Stack em formação e em transição de
-            carreira, buscando minha primeira oportunidade na área de
-            tecnologia.
-          </p>
-          <p>
-            Atualmente, curso Ciência da Computação na UNISAGRADO e sou técnico
-            em Desenvolvimento de Sistemas pela ETEC, com uma base sólida em
-            programação e lógica.
-          </p>
-          <p>
-            Venho me aprimorando em C#, React, JavaScript, HTML, CSS e Git,
-            sempre com foco em projetos práticos e aprendizado contínuo.
-          </p>
-          <p>
-            Também estou estudando inglês no CEBRAC, com foco em conversação e
-            fluência, para me preparar para ambientes profissionais mais amplos.
-          </p>
-        </div>
+  <section class="section" id="about">
+    <div class="card">
+      <div class="container">
+        <h1>Sobre Mim</h1>
+        <p>Olá, me chamo Roger Machado!</p>
+        <p>
+          Sou um Desenvolvedor Full Stack em formação e em transição de
+          carreira, buscando minha primeira oportunidade na área de
+          tecnologia.
+        </p>
+        <p>
+          Atualmente, curso Ciência da Computação na UNISAGRADO e sou técnico
+          em Desenvolvimento de Sistemas pela ETEC, com uma base sólida em
+          programação e lógica.
+        </p>
+        <p>
+          Venho me aprimorando em C#, React, JavaScript, HTML, CSS e Git,
+          sempre com foco em projetos práticos e aprendizado contínuo.
+        </p>
+        <p>
+          Também estou estudando inglês no CEBRAC, com foco em conversação e
+          fluência, para me preparar para ambientes profissionais mais amplos.
+        </p>
       </div>
-      <img
-        src="Components/giphy.gif"
-        alt="Animação Tecnológica"
-        class="about-gif"
-      />
-      <a
-        href="#about-tec"
-        class="arrow-down"
-        title="Ir para Minhas Tecnologias"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          width="32"
-          height="32"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
-          />
+    </div>
+    <img src="Components/giphy.gif" alt="Animação Tecnológica" class="about-gif" />
+    <a href="#about-tec" class="arrow-down" title="Ir para Minhas Tecnologias">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        width="32" height="32">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+      </svg>
+    </a>
+  </section>
+
+  <section class="tech-section" id="about-tec">
+    <h2>Minhas Principais Tecnologias</h2>
+    <div class="tech-list">
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript" />
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        <span>React</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+        <span>Node.js</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+        <span>HTML5</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+        <span>CSS3</span>
+      </div>
+      <div class="tech-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
+        <span>C#</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="time-line" id="time-line-projects">
+
+
+    <div class="arrow-container-timeline">
+      <a href="#time-line-projects" class="arrow-down-timeline" title="Ir para a Timeline">
+        <p class="arrow-label">Meus Projetos</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
         </svg>
       </a>
-    </section>
+    </div>
 
-    <section class="tech-section" id="about-tec">
-      <h2>Minhas Principais Tecnologias e Projetos</h2>
-      <div class="tech-list">
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="JavaScript"
-          />
-          <span>JavaScript</span>
-        </div>
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
-          />
-          <span>React</span>
-        </div>
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-            alt="Node.js"
-          />
-          <span>Node.js</span>
-        </div>
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="HTML5"
-          />
-          <span>HTML5</span>
-        </div>
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS3"
-          />
-          <span>CSS3</span>
-        </div>
-        <div class="tech-item">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-            alt="C#"
-          />
-          <span>C#</span>
+
+    <div class="timeline-item left" id="time-line-inicio">
+      <h3>Tela de Login</h3>
+      <p>Interface de login com validação de campos e estilo moderno.</p>
+      <div class="gif-box">
+        <img src="Components/Login.gif" alt="Tela de login" />
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/Roger-Machado/Tela-de-Login" target="_blank" class="github-button">
+          Ver Projeto no GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <h3>Chat Bot</h3>
+      <p>Chat Bot criado para responder dúvidas de forma automática e rápida. Ele entende perguntas, oferece respostas
+        precisas.</p>
+      <div class="gif-box">
+        <img src="Components/chat bot.gif" alt="tela do Chat Bot" />
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/Roger-Machado/Chat-Bot" target="_blank" class="github-button">
+          Ver Projeto no GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <h3>Demonstração de veículos</h3>
+      <p>Página desenvolvida para destacar um modelo de carro com foco visual elegante, responsivo e funcional.
+
+      </p>
+      <div class="gif-box">
+        <img src="Components/Rcar.gif" alt="Tela de Carros" />
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/Roger-Machado/Site-Carro" target="_blank" class="github-button">
+          Ver Projeto no GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <h3>Marketplace de Café Artesanal</h3>
+      <p>Interface desenvolvida para um marketplace de cafés especiais, com visual moderno e elementos que destacam a
+        experiência do usuário em compras online.
+
+      </p>
+      <div class="gif-box">
+        <img src="Components/Cafe.gif" alt="Tela de um Martkplace de Café" />
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/Roger-Machado/Marktplace---Caf-" target="_blank" class="github-button">
+          Ver Projeto no GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <h3>Site de Hotelaria</h3>
+      <p>Apresentação moderna para hotéis, com foco em reservas e serviços.</p>
+      <div class="gif-box">
+        <img src="Components/Hotel.gif" alt="Tela de um Martkplace de Café" />
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/Roger-Machado/Hotel" target="_blank" class="github-button">
+          Ver Projeto no GitHub
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="budget-section" id="budget">
+
+
+    <div class="budget-content">
+      <div class="box-message">
+        <h1>Peça seu Orçamento</h1>
+        <div class="message-box">
+          <p>Mande sua mensagem diretamente para o meu email</p>
+          <form id="form-orcamento">
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Digite sua mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
       </div>
-    </section>
-
-    <section class="time-line" id="time-line-projects">
-
-  <div class="timeline-item left">
-    <h3>Tela de Login</h3>
-    <p>Interface de login com validação de campos e estilo moderno.</p>
-    <div class="gif-box">
-      <img src="Components/Login.gif" alt="Tela de login" />
     </div>
-  </div>
-
-  <div class="timeline-item right">
-    <h3>Chat Bot</h3>
-    <p>Chat Bot criado para responder dúvidas de forma automática e rápida. Ele entende perguntas, oferece respostas precisas.</p>
-    <div class="gif-box">
-      <img src="Components/chat bot.gif" alt="tela do Chat Bot" />
-    </div>
-  </div>
-
- <div class="timeline-item left">
-    <h3>Demonstração de veículos</h3>
-    <p>Página desenvolvida para destacar um modelo de carro com foco visual elegante, responsivo e funcional. 
-
-    </p>
-    <div class="gif-box">
-      <img src="Components/Rcar.gif" alt="Tela de Carros" />
-    </div>
-  </div>
-
-   <div class="timeline-item right">
-    <h3>Marketplace de Café Artesanal</h3>
-    <p>Interface desenvolvida para um marketplace de cafés especiais, com visual moderno e elementos que destacam a experiência do usuário em compras online. 
-
-    </p>
-    <div class="gif-box">
-      <img src="Components/Cafe.gif" alt="Tela de um Martkplace de Café" />
-    </div>
-  </div>
-
-<div class="timeline-item left">
-    <h3>Site de Hotelaria</h3>
-    <p>Apresentação moderna para hotéis, com foco em reservas e serviços. 
-
-    </p>
-    <div class="gif-box">
-      <img src="Components/Hotel.gif" alt="Tela de um Martkplace de Café" />
-    </div>
-  </div>
 
 
-    </section>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Roger Machado. Todos os direitos reservados.</p>
+    <h1 class="footer-title">
+      <span class="footer-logo">Roger</span> Machado
+    </h1>
+  </footer>
 
 
-    <script src="scripts.js" defer></script>
-    <script src="particles.js" defer></script>
-  </body>
+
+
+  <script src="scripts.js" defer></script>
+  <script src="particles.js" defer></script>
+  <script src="emailjs.js" defer></script>
+  <script src="config.js"></script>
+</body>
+
 </html>
