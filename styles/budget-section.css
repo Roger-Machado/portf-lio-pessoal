@@ -1,0 +1,116 @@
+/*Começo do Contate-me*/
+
+.budget-section {
+  background-color: #121212;
+  z-index: 1;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.budget-content {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box-message {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+}
+
+/* Título */
+.box-message h1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+
+.message-box {
+  color: white;
+}
+
+.message-box p {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+.message-box h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.message-box input,
+.message-box textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  color: white;
+  resize: none;
+  caret-color: auto;
+}
+
+.message-box input::placeholder,
+.message-box textarea::placeholder {
+  color: #aaa;
+}
+
+.message-box button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #00ffee;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-box button:hover {
+  background-color: #00ccbb;
+}
+
+.site-footer {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  background-color: #1b1b1b;
+}
+
+.site-footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-logo {
+  color: #00ccff;
+}
+
+/*Fim do Contate-me*/
