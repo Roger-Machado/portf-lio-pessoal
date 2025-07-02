@@ -29,3 +29,19 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
+let prevScrollPos = window.pageYOffset;
+const navbar = document.querySelector(".nav-bar");
+
+window.addEventListener("scroll", function () {
+  if (window.innerWidth <= 768) {
+    const currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+      navbar.style.top = "0";
+    } else {
+      navbar.style.top = "translateY(-100%)";
+    }
+
+    prevScrollPos = currentScrollPos;
+  }
+});
