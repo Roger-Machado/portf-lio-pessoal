@@ -13,6 +13,16 @@
 /*Fim do fundo com particulas*/
 
 /* Começo da Nav_bar */
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -22,8 +32,6 @@
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.4s ease, box-shadow 0.4s ease;
-  background-color: transparent;
-  box-shadow: none;
   z-index: 10;
 }
 

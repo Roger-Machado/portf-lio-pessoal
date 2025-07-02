@@ -1,0 +1,91 @@
+@media (max-width: 480px) {
+  .custom-nav-tittle {
+    font-size: 1.2rem;
+  }
+
+  .menu-toggle {
+    font-size: 24px;
+  }
+
+  .profilephoto {
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+  }
+
+  .custom-title {
+    font-size: 1.5rem;
+  }
+
+  .home h2,
+  .home h3 {
+    font-size: 1rem;
+  }
+
+  .socials-icons a {
+    font-size: 22px;
+  }
+
+  .arrow-down {
+    bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .arrow-down svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .nav-links li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Para que o .nav-links com position absolute fique relativo a ele */
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 11;
+    position: relative;
+    margin: 0;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* aparece logo abaixo da nav-bar */
+    right: 0;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.95);
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}

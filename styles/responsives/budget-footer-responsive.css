@@ -1,0 +1,75 @@
+/* Responsividade para Budget Section */
+@media (max-width: 768px) {
+  .budget-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-message {
+    width: 90%;
+    height: auto; /* para não ficar com altura fixa */
+    padding: 20px;
+  }
+
+  .box-message h1 {
+    font-size: 2rem;
+    padding: 20px 0;
+  }
+
+  .message-box p {
+    font-size: 1rem;
+  }
+
+  .message-box input,
+  .message-box textarea {
+    font-size: 1rem;
+  }
+
+  .message-box button {
+    font-size: 1.1rem;
+  }
+
+  .site-footer {
+    padding: 20px 10px;
+    font-size: 15px;
+  }
+
+  .footer-title {
+    font-size: 1.3rem;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-message {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .box-message h1 {
+    font-size: 1.6rem;
+    padding: 10px 0;
+  }
+
+  .message-box input,
+  .message-box textarea {
+    font-size: 0.9rem;
+  }
+
+  .message-box button {
+    font-size: 1rem;
+  }
+
+  .site-footer {
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .footer-title {
+    font-size: 1.1rem;
+  }
+
+  .footer-logo {
+    font-size: 1.2rem;
+  }
+}

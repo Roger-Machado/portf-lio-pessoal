@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .time-line {
+    padding: 40px 20px 60px 20px;
+  }
+
+  .time-line::before {
+    display: none;
+  }
+
+  .timeline-item {
+    max-width: 100%;
+    margin: 0 auto 40px auto !important;
+    text-align: center !important;
+    padding: 15px 20px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .timeline-item::before {
+    top: -12px;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%);
+  }
+
+  .gif-box {
+    height: 180px;
+  }
+
+  .gif-box img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .time-line {
+    padding: 30px 15px 40px 15px;
+  }
+
+  .timeline-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .timeline-item p {
+    font-size: 0.9rem;
+  }
+
+  .gif-box {
+    height: 140px;
+  }
+
+  .github-button {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+}

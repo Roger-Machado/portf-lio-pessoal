@@ -92,7 +92,7 @@
 
 .timeline-item {
   position: relative;
-  width: 650px;
+  max-width: 650px;
   height: 100%;
   padding: 20px 30px;
   border-radius: 8px;
