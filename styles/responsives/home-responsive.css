@@ -67,7 +67,7 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 100%; /* aparece logo abaixo da nav-bar */
+    top: 100%; 
     right: 0;
     width: 100%;
     background-color: rgba(27, 27, 27, 0.95);

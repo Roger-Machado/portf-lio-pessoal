@@ -37,11 +37,13 @@ window.addEventListener("scroll", function () {
     const currentScrollPos = window.pageYOffset;
 
     if (prevScrollPos > currentScrollPos) {
-      navbar.style.top = "0";
+      navbar.style.top = "0"; 
     } else {
-      navbar.style.top = "translateY(-100%)";
+      navbar.style.top = "-70px"; 
     }
 
     prevScrollPos = currentScrollPos;
+  } else {
+    navbar.style.top = "0"; 
   }
 });
