@@ -44,8 +44,8 @@
   width: 70px;
   height: 70px;
   object-fit: contain;
-  margin-bottom: 12px;
-  filter: drop-shadow(0 0 5px #00ccff);
+  margin-bottom: 2px;
+  filter: drop-shadow(0 0 10px rgba(241, 234, 234, 0.5));
 }
 
 .tech-item span {
